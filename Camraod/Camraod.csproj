@@ -107,9 +107,14 @@
     <Content Include="Content\image\3.jpeg" />
     <Content Include="Content\image\4.jpeg" />
     <Content Include="Content\image\613857.jpg" />
+    <Content Include="Content\image\analyse-de-statistique-48767089.jpg" />
     <Content Include="Content\image\bus.gif" />
     <Content Include="Content\image\Charter-Bus-Rentals-Photo.jpg" />
+    <Content Include="Content\image\chauffeur.png" />
     <Content Include="Content\image\default-logo.png" />
+    <Content Include="Content\image\image.jpg" />
+    <Content Include="Content\image\OIP %281%29.gif" />
+    <Content Include="Content\image\OIq %281%29.jpeg" />
     <Content Include="Content\image\_D.jpg" />
     <Content Include="Content\jquery.js" />
     <Content Include="Content\nicepage.js" />
