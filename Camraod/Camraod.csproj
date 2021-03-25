@@ -94,7 +94,7 @@
     <Content Include="Content\blog\post-3.html" />
     <Content Include="Content\blog\post-4.html" />
     <Content Include="Content\blog\post-5.html" />
-    <Content Include="Content\blog\post.html" />
+    <Content Include="Content\CSS\post.html" />
     <Content Include="Content\CSS\About.css" />
     <Content Include="Content\CSS\Accueil.css" />
     <Content Include="Content\CSS\Blog-Template.css" />
@@ -119,12 +119,6 @@
     <Content Include="Content\jquery.js" />
     <Content Include="Content\nicepage.js" />
     <Content Include="Global.asax" />
-    <Content Include="Views\Camrod\About.html" />
-    <Content Include="Views\Camrod\Accueil.html" />
-    <Content Include="Views\Camrod\Contact.html" />
-    <Content Include="Views\Camrod\index.html" />
-    <Content Include="Views\Camrod\Inscription.html" />
-    <Content Include="Views\Camrod\Login.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +134,12 @@
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Camrod\About.cshtml" />
+    <Content Include="Views\Camrod\Accueil.cshtml" />
+    <Content Include="Views\Camrod\Contact.cshtml" />
+    <Content Include="Views\Camrod\Index.cshtml" />
+    <Content Include="Views\Camrod\Inscription.cshtml" />
+    <Content Include="Views\Camrod\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

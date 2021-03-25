@@ -13,9 +13,5 @@ namespace Camraod.Controllers
         {
             return View();
         }
-        public ActionResult Accueil()
-        {
-            return View("Accueil");
-        }
     }
 }

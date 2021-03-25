@@ -1,6 +1,11 @@
 ﻿
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
+
+
 <html style="font-size: 16px;">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,8 +31,8 @@
 
     <script type="application/ld+json">
         {
-        "@context": "http://schema.org",
-        "@type": "Organization",
+        @*"@context": "http://schema.org",
+        "@type": "Organization",*@
         "name": "",
         "url": "index.html",
         "logo": "images/bus.gif"
@@ -39,11 +44,11 @@
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
 </head>
-<body class="u-body">
+<body data-home-page="Accueil.html" data-home-page-title="Accueil" class="u-body">
     <header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-cd1d">
         <div class="u-clearfix u-sheet u-sheet-1">
             <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="800" data-image-height="400">
-                <img src="images/bus.gif" class="u-logo-image u-logo-image-1" data-image-width="80">
+                <img src="/Content/image/bus.gif" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
             <form action="#" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">
                 <button class="u-search-button" type="submit">
@@ -65,16 +70,16 @@
                 <div class="u-custom-menu u-nav-container">
                     <ul class="u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link">Accueil</a>
+                            <a class="u-button-style u-nav-link" href="/Views/Camrod/Accueil.html">Accueil</a>
                         </li>
                         <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link" href="About.html">About</a>
+                            <a class="u-button-style u-nav-link" href="/Views/Camrod/About.html">About</a>
                         </li>
                         <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link" href="Contact.html">Contact</a>
+                            <a class="u-button-style u-nav-link" href="/Views/Camrod/Contact.html">Contact</a>
                         </li>
                         <li class="u-nav-item">
-                            <a class="u-button-style u-nav-link" href="Login.html">Login</a>
+                            <a class="u-button-style u-nav-link" href="/Views/Camrod/Login.html">Login</a>
                         </li>
                         <li class="u-nav-item">
                             <a class="u-button-style u-nav-link">Pages</a><div class="u-nav-popup">
@@ -301,7 +306,7 @@
     </footer>
     <section class="u-backlink u-clearfix u-grey-80">
         <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-            <span>Website Templates</span>
+            <span></span>
         </a>
         <p class="u-text">
             <span>created with</span>

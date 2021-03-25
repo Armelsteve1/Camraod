@@ -13,6 +13,7 @@ namespace Camraod.Controllers
         {
             return View();
         }
+        [HttpPost]
         public ActionResult Accueil()
         {
             return View("Accueil");
@@ -33,9 +34,6 @@ namespace Camraod.Controllers
         {
             return View("Inscription");
         }
-        public ActionResult index()
-        {
-            return View("index");
-        }
+       
     }
 }
